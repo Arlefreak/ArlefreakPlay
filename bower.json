@@ -1,0 +1,32 @@
+{
+  "name": "ArlefreakPlay",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Arlefreak/HorchataClubClient",
+  "authors": [
+    "Arlefreak <arlefreak@gmail.com>"
+  ],
+  "description": "ArlefreakPlay front end client",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ArlefreakPlay",
+    "client",
+    "frontend"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "react": "~0.14.0",
+    "flux": "~2.1.1",
+    "modernizr": "~3.2.0"
+  }
+}

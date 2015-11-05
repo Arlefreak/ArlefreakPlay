@@ -1,0 +1,49 @@
+{
+  "name": "ArlefreakPlaySoon",
+  "version": "0.0.1",
+  "description": "HorchataClub FrontEndClient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlefreak/HorchataClubClient.git"
+  },
+  "keywords": [
+    "HorchataClub",
+    "client",
+    "backbone"
+  ],
+  "author": "Arlefreak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arlefreak/HorchataClubClient/issues"
+  },
+  "homepage": "https://github.com/Arlefreak/HorchataClubClient#readme",
+  "devDependencies": {
+    "body-parser": "^1.14.1",
+    "browserify": "^12.0.1",
+    "cors": "^2.7.1",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.1.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "imagemin-pngquant": "^4.2.0",
+    "jshint-stylish": "^2.0.1",
+    "main-bower-files": "^2.9.0",
+    "method-override": "^2.3.5",
+    "nib": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
