@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aging</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="Aging.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <header class="card">
+            <h2>Aging #0.0.7</h2>
+            <h3>A simple school project using <a href="http://phaser.io/">Phaser</a></h3>
+        </header>
+        <script type="text/javascript">
+            window.onload = function() {
+
+                var width = window.innerWidth;
+                var height = window.innerHeight;
+                //var game = new Phaser.Game(width, height, Phaser.WEBGL, 'game');
+                var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'game');
+
+                game.state.add('Boot', Aging.Boot);
+                game.state.add('Preloader', Aging.Preloader);
+                game.state.add('MainMenu', Aging.MainMenu);
+                game.state.add('Game', Aging.Game);
+
+                //	Now start the Boot state.
+                game.state.start('Boot');
+            };
+        </script>
+    </section>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43222844-2', 'arlefreak.com');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>

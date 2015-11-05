@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bike</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+    <script src="Bike.min.js"></script>
+</head>
+
+<body>
+    <span>hola</span>
+    <div id="bike"></div>
+    <script type="text/javascript">
+        window.onload = function() {
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+            var game = new Phaser.Game(width, height, Phaser.WEBGL, 'bike');
+            game.state.add('Boot', gameBike.Boot);
+            game.state.add('Preloader', gameBike.Preloader);
+            game.state.add('MainMenu', gameBike.MainMenu);
+            game.state.add('Game', gameBike.Game);
+            game.state.start('Boot');
+        };
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43222844-2', 'arlefreak.com');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+span{
+    font-family: source_code;
+    display: none;
+}
+body,html,canvas{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}

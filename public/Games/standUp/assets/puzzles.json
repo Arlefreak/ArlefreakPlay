@@ -1,0 +1,36 @@
+{
+  "level1": [{
+    "question": ["peces_right", "peces_left", "peces_right", "peces_left", "question"],
+    "answer": "peces_right",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }, {
+    "question": ["peces_up", "peces_down", "peces_up", "peces_down", "question"],
+    "answer": "peces_up",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }, {
+    "question": ["flecha_left", "flecha_right", "flecha_left", "flecha_right", "question"],
+    "answer": "flecha_left",
+    "decoy": ["flecha_down", "flecha_up", "flecha_right", "flecha_left"]
+  }, {
+    "question": ["flecha_down", "flecha_up", "flecha_down", "flecha_up", "question"],
+    "answer": "flecha_down",
+    "decoy": ["flecha_down", "flecha_up", "flecha_right", "flecha_left"]
+  }],
+  "level2": [{
+    "question": ["peces_right", "peces_left", "peces_right", "peces_left", "question"],
+    "answer": "peces_right",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }, {
+    "question": ["peces_up", "peces_down", "peces_up", "peces_down", "question"],
+    "answer": "peces_up",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }, {
+    "question": ["peces_left", "peces_right", "peces_left", "peces_right", "question"],
+    "answer": "peces_left",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }, {
+    "question": ["peces_down", "peces_up", "peces_down", "peces_up", "question"],
+    "answer": "peces_down",
+    "decoy": ["peces_down", "peces_up", "peces_right", "peces_left"]
+  }]
+}

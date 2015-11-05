@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "corazon01.png",
+	"frame": {"x":2,"y":2,"w":55,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
+	"sourceSize": {"w":55,"h":55}
+},
+{
+	"filename": "corazon02.png",
+	"frame": {"x":59,"y":2,"w":55,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":55},
+	"sourceSize": {"w":55,"h":55}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "heart.png",
+	"format": "RGBA8888",
+	"size": {"w":116,"h":59},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:673d67d780911a3c59db518eb0ccd01e:ba3eac8f3537a636b28dde92344a0d36:cb39580ce6d86b4835ef90f0a2df983e$"
+}
+}

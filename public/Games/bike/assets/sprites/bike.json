@@ -1,0 +1,91 @@
+{ "frames": {
+   "bike200.ase": {
+    "frame": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike201.ase": {
+    "frame": { "x": 20, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike202.ase": {
+    "frame": { "x": 40, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike203.ase": {
+    "frame": { "x": 60, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike204.ase": {
+    "frame": { "x": 80, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike205.ase": {
+    "frame": { "x": 100, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike206.ase": {
+    "frame": { "x": 120, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike207.ase": {
+    "frame": { "x": 140, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike208.ase": {
+    "frame": { "x": 160, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   },
+   "bike209.ase": {
+    "frame": { "x": 180, "y": 0, "w": 20, "h": 45 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 20, "h": 45 },
+    "sourceSize": { "w": 20, "h": 45 },
+    "duration": 50
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "0.9.6-dev",
+  "image": "bike.png",
+  "format": "RGBA8888",
+  "size": { "w": 200, "h": 45 },
+  "scale": "1"
+ }
+}
